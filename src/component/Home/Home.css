@@ -1,0 +1,15 @@
+.banner{
+    background-image: url(../../images/banner.jpg);
+    height: 500px; 
+    background-position: top; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    opacity: .8;;
+}
+.banner-text{
+    margin-top: 150px;
+
+}
+.text-color{
+    color: #006885;
+}
