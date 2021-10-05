@@ -1,4 +1,4 @@
-# Educational Reacte site
+# ACADEMIA an Educational React site
 
 https://pensive-franklin-90078f.netlify.app/
 
