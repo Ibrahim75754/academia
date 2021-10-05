@@ -18,13 +18,13 @@ const Footer = () => {
                     </div>
                     <div className="col-6">
                         <h4>ASK A QUESTION</h4>
-                        <div class="mb-3">
-                            <input type="email" class="form-control" placeholder="Email" />
+                        <div className="mb-3">
+                            <input type="email" className="form-control" placeholder="Email" />
                         </div>
-                        <div class="mb-3">
-                            <textarea class="form-control" placeholder="Description" rows="3"></textarea>
+                        <div className="mb-3">
+                            <textarea className="form-control" placeholder="Description" rows="3"></textarea>
                         </div>
-                        <div class="mb-3">
+                        <div className="mb-3">
                             <button className="btn btn-warning">Send Now</button>
                         </div>
                     </div>

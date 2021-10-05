@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 
 const CourseDetails = () => {
@@ -6,7 +5,8 @@ const CourseDetails = () => {
     return (
         <div className="container py-5">
             <div className="text-center pb-5">
-                <h1>Course {courseId} Details:</h1>
+                <h1>Secrets Of Economics</h1>
+                <p>Course No. {courseId}</p>
             </div>
             <div className="row">
                 <div className="col-6">

@@ -18,7 +18,7 @@ const Home = () => {
 
             </div>
             <div className="container pb-5">
-                <div class="row">
+                <div className="row">
                     {
                         courses.slice(0, 4).map(course => <Courses
                             key={course.id}
