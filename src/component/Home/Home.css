@@ -1,13 +1,22 @@
 .banner{
     background-image: url(../../images/banner.jpg);
-    height: 500px; 
+    height: 600px; 
+    background-attachment: fixed;
     background-position: top; 
     background-repeat: no-repeat; 
     background-size: cover;
-    opacity: .8;;
+    opacity: 0.8;
+    
 }
-.banner-text{
-    margin-top: 150px;
+.dark-overly{
+    background: rgba(0, 0, 0, 0.5);
+    height: 600px; 
+
+}
+.text-position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .text-color{

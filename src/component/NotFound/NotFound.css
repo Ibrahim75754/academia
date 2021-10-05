@@ -1,8 +1,9 @@
 .notfound{
-    height: 800px;
+    height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: red;
+    background-color: wheat;
 }
