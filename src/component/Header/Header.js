@@ -4,6 +4,9 @@ import { NavLink } from 'react-router-dom';
 import './Header.css'
 
 const Header = () => {
+    const style = {
+        color: "#FFC107"
+    }
     return (
         <div>
             <nav className="navbar navbar-dark bg-color navbar-expand-lg">
@@ -15,16 +18,16 @@ const Header = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 fs-5 mb-lg-0">
                             <li className="nav-item">
-                                <NavLink className="nav-link active" aria-current="page" to="/home">Home</NavLink>
+                                <NavLink activeStyle={style} className="nav-link" to="/home">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link active" to="/about-us">About Us</NavLink>
+                                <NavLink activeStyle={style} className="nav-link" to="/about-us">About Us</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link active" to="/courses">Courses</NavLink>
+                                <NavLink activeStyle={style} className="nav-link" to="/courses">Courses</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link active" to="/contact">Contact</NavLink>
+                                <NavLink activeStyle={style} className="nav-link" to="/contact">Contact</NavLink>
                             </li>
 
                         </ul>
