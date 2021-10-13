@@ -20,7 +20,7 @@ const Home = () => {
             <div className="container pb-5">
                 <div className="row">
                     {
-                        courses.slice(0, 4).map(course => <Courses
+                        courses.slice(0, 5).map(course => <Courses
                             key={course.id}
                             course={course}
                         ></Courses>)

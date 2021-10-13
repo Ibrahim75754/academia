@@ -27,6 +27,7 @@ const CourseDetails = () => {
                     <p>Price: ${details?.price}</p><br />
                     <h6>Course Overview:</h6>
                     <p>{details?.desciption}</p>
+                    <button className="btn btn-warning mt-3 py-3 px-5 text-white">Enroll Now</button>
                 </div>
             </div>
 

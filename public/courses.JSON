@@ -68,5 +68,15 @@
         "img": "https://images.pexels.com/photos/5852305/pexels-photo-5852305.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "photo": "https://images.pexels.com/photos/5528835/pexels-photo-5528835.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "duration": 300
+    },
+    {
+        "id": 8,
+        "name": "Responsive Web Design",
+        "price": 300,
+        "desciption": "In this course you’ll learn the fundamentals of responsive web design, create your own responsive web page that works well on any device – phone, tablet, desktop or anything in between. You’ll start by exploring what makes a site responsive and how some common responsive design patterns work across different devices. From there, you’ll learn how to create your own responsive layout using the viewport tag and CSS media queries. As you proceed, you’ll experiment with major and minor breakpoints, and optimizing text for reading. you’ll learn how to create your own responsive layout using the viewport tag and CSS media queries. As you proceed, you’ll experiment with major and minor breakpoints, and optimizing text for reading.",
+        "instructor": "ASHRAF BADRY",
+        "img": "https://images.pexels.com/photos/7102/notes-macbook-study-conference.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "photo": "https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "duration": 500
     }
 ]

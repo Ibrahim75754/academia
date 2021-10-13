@@ -10,8 +10,8 @@ const Courses = (props) => {
                     <img src={img} className="img-fluid" alt="" />
                     <h3 className="card-title">{name}</h3>
                     <h5>Price: ${price}</h5>
-                    <p className="card-text">{desciption.slice(0, 100)}</p>
-                    <NavLink to={`/course/${id}`} className="btn btn-warning">Details</NavLink>
+                    <p className="card-text">{desciption.slice(0, 110)}</p>
+                    <NavLink to={`/course/${id}`} className="btn btn-warning py-2 px-5">Details</NavLink>
                 </div>
             </div>
         </div>
